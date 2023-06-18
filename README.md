@@ -38,31 +38,27 @@ Follow the steps below to use this repository:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/Vats-Dev/DevComm-ML-Task-1.git
    ```
 
 2. Navigate to the repository directory:
 
    ```
-   cd repository-name
+   cd DevComm-ML-Task-1
    ```
 
-3. Run the Python script that contains the SVM models' implementation and comparative study:
+3. Open the Python notebook file `task_1(1).ipynb` using Jupyter Notebook or any other compatible environment.
 
-   ```
-   python svm_comparative_study.py
-   ```
-
-4. The script will execute the SVM models on a given dataset and display the comparative results.
+4. Run the notebook cells sequentially to execute the SVM models on the provided dataset and view the comparative results.
 
 ## Dataset
-The dataset used in this comparative study is located in the `dataset` directory. You can find a file named `data.csv`, which contains the input features and corresponding target labels. Make sure to preprocess or format your own dataset in a compatible format if you wish to use a different dataset.
+The dataset used in this comparative study is located in the `DevComm-ML-Task-1` directory. You can find a file named `neo.csv`, which contains the input features and corresponding target labels. Make sure to preprocess or format your own dataset in a compatible format if you wish to use a different dataset. The data is licensed under CC0: Public Domain
 
 ## Implementation
-The implementation of the SVM models and the comparative study can be found in the `svm_comparative_study.py` file. The file contains the necessary code to import the dataset, split it into training and testing sets, implement the four SVM models, train them, and evaluate their performance.
+The implementation of the SVM models and the comparative study can be found in the `task_1(1).ipynb` notebook file. The notebook contains the necessary code to import the dataset, split it into training and testing sets, implement the four SVM models, train them, and evaluate their performance.
 
 ## Results
-After running the `svm_comparative_study.py` script, you will see the comparative results of the four SVM models. The results will include metrics such as accuracy, precision, recall, and F1 score for each model. Additionally, the script will generate visualizations using Matplotlib to help understand the performance differences between the models.
+After running the notebook cells, you will see the comparative results of the four SVM models. The results will include metrics such as accuracy, precision and F1 score for each model. Additionally, the notebook includes visualizations using Matplotlib to help understand the performance differences between the models.
 
 ## Contributing
 Contributions to this comparative study are welcome. If you have any ideas for improvement or want to add more SVM models, feel free to open a pull request with your changes.
